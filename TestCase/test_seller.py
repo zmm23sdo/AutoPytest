@@ -253,7 +253,7 @@ def test_addIndividualSeller():
 # 12.为dealer创建seller
 def test_addSellerForDealer():
     addSellerForDealer = inter.addSellerForDealer(
-        name="SellerForDealer" + TimeNow() + Unicode() + GBK2312(),
+        name="SellerForDealer" + TimeNow() + Unicode() + GBK2312()+ Unicode(),
         email="SellerForDealer" + TimeNow() + "@SellerForDealer.dealer",
         phonePrefix="+86",
         phoneNumber=TimeNow(),
