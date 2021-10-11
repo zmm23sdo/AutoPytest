@@ -58,7 +58,7 @@ def auditInspection():
                 return inspection_id
 
     inspection_id = str(getId())
-    assert str(inspection_id) != None
+    assert str(inspection_id) is not None
     print("-" * 100)
     print("inspection_id:", inspection_id)
     print("-" * 100)
@@ -103,7 +103,7 @@ def auditInspection():
                 return assign_id
 
     assign_id = str(assignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -194,7 +194,7 @@ def auditInspection():
                 return check_id
 
     check_id = str(checkId())
-    assert str(check_id) != None
+    assert str(check_id) is not None
     print("-" * 100)
     print("check_id:", check_id)
     print("-" * 100)
@@ -417,7 +417,7 @@ def test_assignExecutive():
                 return trans_id
 
     trans_id = str(getTransId())
-    assert str(trans_id) != None
+    assert str(trans_id) is not None
     print("-" * 100)
     print("trans_id:", trans_id)
     print("-" * 100)
@@ -437,7 +437,7 @@ def test_assignExecutive():
                 return assign_id
 
     assign_id = str(getAssignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -639,7 +639,7 @@ def test_dealerTransInfo():
                 return assign_id
 
     assign_id = str(assignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -766,7 +766,7 @@ def test_dealerTransInfo():
                 return assign_id
 
     assign_id = str(assignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -845,7 +845,7 @@ def test_dealerTransInfo():
                 return assign_id
 
     assign_id = str(assignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -875,7 +875,7 @@ def test_dealerTransInfo():
                 return executiveWithDealer_id
 
     executiveWithDealer_id = str(executiveWithDealerId())
-    assert str(executiveWithDealer_id) != None
+    assert str(executiveWithDealer_id) is not None
     print("-" * 100)
     print("executiveWithDealer_id:", executiveWithDealer_id)
     print("-" * 100)
@@ -1098,7 +1098,7 @@ def test_createOfflineOrder():
                 return assign_id
 
     assign_id = str(assignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -1225,7 +1225,7 @@ def test_createOfflineOrder():
                 return assign_id
 
     assign_id = str(assignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -1304,7 +1304,7 @@ def test_createOfflineOrder():
                 return assign_id
 
     assign_id = str(assignId())
-    assert str(assign_id) != None
+    assert str(assign_id) is not None
     print("-" * 100)
     print("assign_id:", assign_id)
     print("-" * 100)
@@ -1334,7 +1334,7 @@ def test_createOfflineOrder():
                 return executiveWithDealer_id
 
     executiveWithDealer_id = str(executiveWithDealerId())
-    assert str(executiveWithDealer_id) != None
+    assert str(executiveWithDealer_id) is not None
     print("-" * 100)
     print("executiveWithDealer_id:", executiveWithDealer_id)
     print("-" * 100)
