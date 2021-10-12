@@ -9,7 +9,7 @@ import hmac, base64, struct, hashlib, time
 from common.TestCommon import GetHeaders, NDay, getVerifyCodeImage, getRedis, loginTrue, SetPhone, Unicode, GBK2312, \
     Now, NowDate, TimeNow, Today, UpLoad
 from datetime import datetime
-from test_car import test_confirmInspectionReport
+from testCase.test_car import test_confirmInspectionReport
 
 inter = Interface()
 
