@@ -198,7 +198,7 @@ def UpLoad(car_no):
     print("-" * 100)
     # 必须以二进制的方式打开文件。
     # 填写本地文件的完整路径。如果未指定本地路径，则默认从示例程序所属项目对应本地路径中上传文件。
-    with open('/Users/admin/Desktop/WechatIMG11643.jpg', 'rb') as fileobj:
+    with open('/Users/admin/Desktop/WechatIMG125.jpeg', 'rb') as fileobj:
         # Seek方法用于指定从第1000个字节位置开始读写。上传时会从您指定的第1000个字节位置开始上传，直到文件结束。
         fileobj.seek(1000, os.SEEK_SET)
         # Tell方法用于返回当前位置。
